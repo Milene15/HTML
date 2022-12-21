@@ -1,0 +1,401 @@
+*{
+	padding: 0px;
+	margin: 0px;
+
+	box-sizing: ;
+
+}
+
+.logo > img {
+	width: 150px;
+	margin: 2px;
+
+	margin-left: 5px ;
+}
+
+
+.menu{
+	background-color: Thistle;
+	display: flex;
+	flex-direction: row;
+
+	justify-content: space-between;
+	width: 100%;
+
+	align-items: center;
+	text-align: center;
+
+
+}
+
+nav{
+	display: flex;
+	flex-direction: row;
+
+	align-items: center;
+}
+
+
+nav > div {
+	margin-left: 50px;
+	margin-right: 20px;
+}
+
+nav > div > a{
+	text-decoration: none;
+	font-size: large;
+	color: #34495e;
+}
+
+nav > div > a:hover{
+	color: #dcdde1;
+}
+
+.banner{
+	width: 100%;
+	height: 15px;
+		background-size: cover
+
+}
+
+.banner > img {
+	width:100%;
+	max-height:100px;
+		background-size:100%
+
+}
+
+.slogan{
+	font-size: 30px;
+	color: #F1D3B3;
+
+	position: absolute;
+	top: 250px;
+	left: 25%;
+}
+
+.Joias{
+	background-color: #e8e8e4;
+	padding: 30px;
+}
+
+.Acessórios{
+	padding: 30px;
+	background-color: #e0e1dd;
+}
+
+.personalizarcolar{
+	padding: 50px;
+	background-color:#adb5bd ;
+	
+}
+
+
+.Joias, .acessorio, .personalizarcolar{
+	flex-direction: row;
+	min-height: 300px;
+	min-width: 250px;
+	padding: 15px;
+	min-height: 200px;
+	min-width: 150px;
+	padding: 50px;
+
+}
+
+center > h1{
+	color: #DBA39A;
+	font-size: 35px;
+}
+center > div{
+	color: #810CA8;
+}
+.s01{
+	background-image: url("../imagens/brincos.jpg");
+	width: 20%;
+	height: 20px;
+	min-height: 130px;
+	background-size: cover
+}
+
+.s02{
+	background-image: url("../imagens/anel.jpg");
+	width: 10%;
+	height: 20px;
+	min-height: 130px;
+	background-size: cover
+}
+
+.s03{
+	background-image: url("../imagens/colar.jpg");
+	width: 10%;
+	height: 20px;
+	min-height: 130px;
+	background-size: cover
+}
+
+.s04{
+	background-image: url("../imagens/pulseira.jpg");
+	width: 10%;
+	height: 10px;
+	min-height: 130px;
+	background-size: cover
+}
+
+.Joias1, .acessorio{
+	display: flex;
+	flex-direction: row;
+	padding: 5px;
+	flex-wrap: wrap;
+}
+
+
+
+
+.s01, .s02, .s03, .s04{
+	flex: 1px;
+}
+
+.s01, .s02, .s03, .s04{
+	border: 2px solid #FFADBC;
+	border-radius: 60px;
+
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+	justify-content: center;
+
+	font-size: medium;
+	font-weight: bolder;
+
+	margin: 5px;
+
+	color: #461220;
+
+	margin-left: 10px;
+
+}
+
+
+.a01{
+	background-image: url("../imagens/laço.jpg");
+}
+
+
+.a02{
+	background-image: url("../imagens/tiara.jpg");
+	
+}
+
+.a03{
+	background-image: url("../imagens/óculosdesol.png");
+}
+
+.a01, .a02, .a03{
+	flex: 1px;
+}
+
+.a01, .a02, .a03{
+	border: 2px solid #FFADBC;
+	border-radius: 60px;
+
+	background-repet: no-repeat;
+	background-size: 100% 100%;
+
+	display:flex;
+	flex-direction:row;
+	align-items: flex-end;
+	justify-content:center;
+
+	font-size: medium;
+	font-weight: bolder;
+
+	margin: 2px;
+
+	color: #rosybrown;
+
+	margin-left: 100px;
+
+
+}
+
+.acessorio{
+	flex-wrap: wrap ;
+		display: flex;
+	flex-direction: row;
+
+}
+
+
+.l01{
+	background-image: url("../imagens/personalizar.jpg");
+	flex: 1;
+	border-radius: 60px;
+
+	background-repeat: no-repeat;
+	background-size: 35% 100%;
+
+	display: flex;
+	align-items: flex-end;
+	justify-content:center;
+
+	font-size: x-large;
+	font-weight: bolder;
+}
+
+
+
+.personalizar{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap ;
+	min-height: 205px;
+	min-width: 200px;
+	padding: 15px;
+	margin-left: 229px;
+	background-size: 100% 100%;
+	width: 30%;
+
+	align-items: center;
+	text-align: center;
+
+
+}
+.descrição{
+	text-align: center;
+	font-size: 20px;
+
+}
+
+.descrição > h2{
+	color: #f08080;
+	margin: 10px;
+
+
+}
+.descrição > h4{
+	color: #810CA8;
+	margin: 10px;
+}
+
+.descrição > div{
+	margin: 10px;
+
+}
+
+.sobre{
+	padding: 30px;
+background-color:#b1a7a6 ;
+
+}
+
+
+.missaovisaovalores{
+	display: flex;
+	flex-direction: row;
+
+	flex-wrap:wrap ;
+
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+}
+
+.missão, .visão, .valores{
+	flex:1;
+
+	flex-wrap: wrap;
+	padding: 10px;
+	/*border: 2px solid #DFD3C3;*/
+
+	min-width: 300px;
+	text-align: center;
+	font-size: 16px;
+
+}
+
+.missão > h2, .visão > h2, .valores > h2{
+	margin-top:10px;
+	margin-bottom:10px;
+	color: #461220;
+
+}
+hr{
+	width: 100%;
+	margin: auto;
+
+	margin-bottom: 5px;
+	height: 1px;
+	background-color: #8B7E74;
+}
+
+.rodape{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+
+	padding: 10px;
+
+	font-size: 20px;
+}
+
+.col-1, > .col-2{
+	flex: 1;
+	min-width: 300px;
+
+	height:20px;
+	text-align: center;
+}
+
+.rodape > .col-1 > img{
+	margin-bottom: 10px;
+}
+
+.rodape > .col-1 > p{
+	margin-bottom: 3px;
+
+}
+
+.rodape > .col-2 > h1{
+	margin-top: 15px;
+	margin-bottom: 3px;
+}
+
+.rodape > .col-2 > p{
+	margin-bottom: 1px;
+}
+
+.rodape > .fol-1 > .fol-2{
+		flex: 1;
+	min-width: 300px;
+
+	height:10px;
+	text-align: center;
+
+
+}
+
+.subRodape{
+	display: flex;
+	flex-direction: row;
+
+	flex-wrap: wrap;
+
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
+
+	height: 40px;
+	background-color: black;
+	color: white;
+
+	font-size: 18px;
+}
+
+.rodape{
+		padding: 30px;
+background-color:#65647C;
+}
+
